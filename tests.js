@@ -113,7 +113,7 @@ describe('lesser', function () {
 })
 
 describe('multigreeting', function () {
-  it('should say hello in English', function () {
+  it('should say Hello in English', function () {
     assert.equal('Hello, Julian!', multigreeting('Julian', 'en'))
   })
   it('should say hola in Spanish', function () {
